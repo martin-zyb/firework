@@ -1,0 +1,15 @@
+
+# folder
+
+.vs/
+x64/
+Debug/
+Release/
+build/
+
+#file
+
+*.sln
+*.vcxproj
+*.filters
+*.user
