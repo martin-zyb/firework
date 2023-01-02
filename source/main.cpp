@@ -1,6 +1,7 @@
 #include "fir.h"
 #include "cmd.h"
 #include "text.h"
+#include "uni.h"
 
 int main(void)
 {
@@ -8,12 +9,13 @@ int main(void)
 	Text* text = new Text;
 	Firework* firework = new Firework;
 
+	cmd->Init();
 	cmd->run();
 
 	srand((unsigned)time(0));
 	initgraph(1200, 600);
 
-	Sleep(750);
+	uni::__sleep(750);
 
 	DWORD t1 = timeGetTime();
 	DWORD* pmem = GetImageBuffer();

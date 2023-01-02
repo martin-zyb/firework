@@ -1,11 +1,9 @@
 #pragma once
 
-#include <stdio.h>
-#include <windows.h>
-
 class Cmd
 {
 public:
+	void Init();
 	void run();
 	void off();
 };

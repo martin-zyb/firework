@@ -6,7 +6,8 @@
 #include <stdio.h>
 #include <iostream>
 #include <conio.h>
-#include <windows.h>
+
+#include "core.h"
 
 #pragma comment(lib,"winmm.lib")
 
